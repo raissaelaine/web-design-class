@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulir Pendaftaran</title>
+</head>
+<body>
+    <fieldset>
+        <legend>Formulir Calon Pegawai</legend>
+        <form action="/path">
+            <!-- Elemen pada formulir -->
+            <label for="name">Nama :</label>
+            <input type="text" name="nama">
+        <br />
+        <br />
+            <label for="address">Alamat :</label>
+            <input type="text" name="address">
+        <br />
+        <br />
+            <label for="password">Password :</label>
+            <input type="password" id="password" name="password">
+        <br />
+        <br />
+            <label for="gender">Jenis Kelamin:</label>
+            <label for="laki-laki">Laki-Laki</label>
+            <input type="radio" id="gender" name="laki-laki">
+            <label for="perempuan">Perempuan</label>
+            <input name="perempuan" id="gender" type="radio">
+        <br />
+        <br />
+            <label for="bahasa pemograman">Bahasa pemograman yang dikuasai :</label>
+            <label for="web">Web</label>
+            <input type="checkbox" name="web" id="web" value="web">
+            <label for="mobile">MOBILE</label>
+            <input type="checkbox" name="mobile" id="mobile">
+            <label for="desktop">DESKTOP</label>
+            <input type="checkbox" name="desktop" id="desktop">
+        <br />
+        <br />
+            <label for="from">Kota asal :</label>
+            <select name="kota asal" id="from">
+                <option value="semarang">Semarang</option>
+                <option value="jakarta">Jakarta</option>
+                <option value="bandung">Bandung</option>
+                <option value="kalimantan">Kalimantan</option>
+                <option value="manado">Manado</option>
+                <option value="maluku">Maluku</option>
+                <option value="ntt">NTT</option>
+                <option value="ntb">NTB</option>
+                <option value="jayapura">Jayapura</option>
+                <option value="manokwari">Manokwari</option>
+                <option value="sorong">Sorong</option>
+            </select>
+        <br />
+        <br />
+           <p>Apa yang membuat kami harus memilih anda?</p>
+            <textarea cols="50" rows="8">Tulis jawaban anda disini</textarea>
+        <br />
+        <br />
+            <input type="submit" value="proses">
+        <br />
+        <br />
+        </form>
+    </fieldset>
+</body>
+</html>
